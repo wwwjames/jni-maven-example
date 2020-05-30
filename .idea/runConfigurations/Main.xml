@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="com.jni.example.Main" />
-    <module name="jni-example" />
-    <option name="VM_PARAMETERS" value="-Djava.library.path=../jni-example/target" />
+    <module name="JNI-Maven-Examples" />
+    <option name="VM_PARAMETERS" value="-Djava.library.path=../JNI-Maven-Examples/target" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.jni.example.*" />

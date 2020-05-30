@@ -29,8 +29,6 @@
                         <extensions>true</extensions>
                         <configuration>
                             <javahOS>${os_name}</javahOS>
-                            <envFactoryName>org.codehaus.mojo.natives.msvc.MSVC2013x86EnvFactory</envFactoryName>
-                            <compilerProvider>msvc</compilerProvider>
                             <sources>
                                 <source>
                                     <directory>src/native/source</directory>

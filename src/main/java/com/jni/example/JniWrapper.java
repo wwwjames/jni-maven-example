@@ -21,7 +21,14 @@ public class JniWrapper {
     }
 
     public void callbackObject(List<String> arrayList) {
-        System.out.println("Callback object: " + arrayList.size());
+        System.out.println("Callback object with size: "
+                + arrayList.size()
+                + " and payload: "
+                + arrayList.get(0));
     }
 
+    public static void main(String[] args) {
+        JniWrapper jni = new JniWrapper();
+        System.out.println(jni.getString());
+    }
 }

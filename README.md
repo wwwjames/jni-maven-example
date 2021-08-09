@@ -1,4 +1,6 @@
-## How to call JNI methods from Java and vise versa
+## How to call JNI methods from Java and vice versa
+
+[![medium](https://aleen42.github.io/badges/src/medium.svg)](https://dredwardhyde.medium.com/a-simple-guide-to-java-native-interface-jni-using-native-maven-plugin-e01f4077a8a5)
 
 
 **Useful snippets:**  

@@ -1,4 +1,21 @@
-## How to call JNI methods from Java and vice versa
+# ReadMe.md
+
+Cloned java native code example originally from [dredwardhyde/jni-maven-example](https://github.com/dredwardhyde/jni-maven-example).
+
+# Usage
+
+- `mvn compile`
+- `java -Djava.library.path=target -cp target JniWrapper`
+
+# Modifications 
+
+- Updated `.gitignore` for generated header and IntelliJ ide directory.
+- Updated maven pom version to `1.1-SNAPSHOT`, added removal of generated headers, added GCC debug flag for compling MacOS native code.
+- Added `artifacts/IntelliJ`.
+
+## Original ReadMe.md
+
+### How to call JNI methods from Java and vice versa
 
 [![medium](https://aleen42.github.io/badges/src/medium.svg)](https://dredwardhyde.medium.com/a-simple-guide-to-java-native-interface-jni-using-native-maven-plugin-e01f4077a8a5)
 

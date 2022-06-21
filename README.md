@@ -5,7 +5,7 @@ Cloned java native code example originally from [dredwardhyde/jni-maven-example]
 # Usage
 
 - `mvn compile`
-- `java -Djava.library.path=target -cp target JniWrapper`
+- `java -Djava.library.path=target -cp target/classes com.jni.example.JniWrapper`
 
 # Modifications 
 
